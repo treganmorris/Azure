@@ -29,7 +29,7 @@
 param(
 
  [string]
- $subscriptionId = '372055d2-2c8e-452c-ad3f-05206bcd6d25',
+ $subscriptionId = '',
 
  [string]
  $resourceGroupName = 'AZURG01',
