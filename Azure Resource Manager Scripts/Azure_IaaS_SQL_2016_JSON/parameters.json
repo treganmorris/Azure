@@ -6,7 +6,7 @@
             "value": "westeurope"
         },
         "virtualMachineName": {
-            "value": "AZUSQL01"
+            "value": "vmname"
         },
         "virtualMachineSize": {
             "value": "Standard_DS1_v2"
@@ -15,25 +15,25 @@
             "value": "sqladmin"
         },
         "virtualNetworkName": {
-            "value": "AZURG01-vnet"
+            "value": "virtualnetworknametim-vnet"
         },
         "networkInterfaceName": {
-            "value": "azusql01703"
+            "value": "networkinterfacenametim"
         },
         "networkSecurityGroupName": {
-            "value": "AZUSQL01-nsg"
+            "value": "networksecuritygroupnametim"
         },
         "adminPassword": {
-            "value": "Winter2017!#"
+            "value": "PasswordHere!#"
         },
         "diagnosticsStorageAccountName": {
-            "value": "azurg01diag117"
+            "value": "storageaccountnametim"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/azurg01diag117"
+            "value": "Microsoft.Storage/storageAccounts/storageaccountnametim"
         },
         "addressPrefix": {
             "value": "10.0.1.0/24"
@@ -45,7 +45,7 @@
             "value": "10.0.1.0/24"
         },
         "publicIpAddressName": {
-            "value": "AZUSQL01-ip"
+            "value": "virtualmachinenametim-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
@@ -84,7 +84,7 @@
             "value": 2
         },
         "sqlStorageDeploymentToken": {
-            "value": 94231
+            "value": 942311
         },
         "sqlAutopatchingDayOfWeek": {
             "value": "Sunday"

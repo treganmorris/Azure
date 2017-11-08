@@ -27,20 +27,21 @@
 #>
 
 param(
- #[Parameter(Mandatory=$True)]
+
  [string]
  $subscriptionId = '372055d2-2c8e-452c-ad3f-05206bcd6d25',
 
-# [Parameter(Mandatory=$True)]
  [string]
  $resourceGroupName = 'AZURG01',
 
  [string]
  $resourceGroupLocation = 'westeurope',
 
- #[Parameter(Mandatory=$True)]
  [string]
- $deploymentName = 'SQL',
+ $skuName = "Standard_LRS",
+
+ [string]
+ $deploymentName = 'deploymentname-tim',
 
  [string]
  $templateFilePath = "C:\Git\personal\Azure Resource Manager Scripts\Azure_IaaS_SQL_2016_JSON\template.json",
